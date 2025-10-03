@@ -170,7 +170,7 @@ export default function LandingPage() {
                     href={audience.action.href}
                     className="mt-4 inline-flex text-sm font-semibold text-godwin-blue hover:text-blue-900"
                   >
-                    {audience.action.label} ->
+                    {audience.action.label} {'->'}
                   </Link>
                 </div>
               ))}
